@@ -1,5 +1,4 @@
 const byId = (selector) => document.getElementById(selector)
-const byClass = (selector) => document.getElementByClass(selector)
 const getCode = (selector) => parseInt(selector.charCodeAt(0))
 console.log("".charCodeAt(0))
 
@@ -8,12 +7,6 @@ const plainTextEnkripsi = byId("plainTextEnkripsi")
 const keyEnkripsi = byId("keyEnkripsi")
 const btnEnkripsi = byId("btnEnkripsi")
 const hasilEnkripsi = byId("hasilEnkripsi")
-
-// DEKRIPSI
-const chiperText = byId("chiperText")
-const keyDekripsi = byId("keyDekripsi")
-const btnDekripsi = byId("btnDekripsi")
-const hasilDekripsi = byId("hasilDekripsi")
 
 // GENERATOR KEY
 const keyGenerator = (key, text) => {

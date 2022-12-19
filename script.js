@@ -1,5 +1,4 @@
 const byId = (selector) => document.getElementById(selector)
-const byClass = (selector) => document.getElementByClass(selector)
 const getCode = (selector) => parseInt(selector.charCodeAt(0))
 
 // DEKRIPSI
